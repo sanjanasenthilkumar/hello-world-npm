@@ -15,8 +15,8 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm ci
-    
-  publish-npm:
+
+  publish-gpr:
     needs: build
     runs-on: ubuntu-latest
     steps:
@@ -30,6 +30,7 @@ jobs:
       - run: npm publish --@getify:registry=https://registry.npmjs.org/
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
   
 
 
