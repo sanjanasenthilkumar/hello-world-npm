@@ -1,6 +1,6 @@
 {
-  "name": "@sanjanasenthilkumar/hello-world-node",
-  "version": "1.0.5",
+  "name": "@sanjanasenthilkumar/npm-package",
+  "version": "1.0.7",
   "description": "A simple npm package to demonstrate GitHub Package Registry",
   "main": "index.js",
   "scripts": {
