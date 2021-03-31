@@ -15,13 +15,20 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm ci
-      - name: Archive production artifacts
-        uses: actions/upload-artifact@v2
+    
+      - uses: actions/checkout@v2
+      - run: mkdir -p path/to/artifact
+      - run: echo hello > path/to/artifact/world.txt
+      - uses: actions/upload-artifact@v2
         with:
          name: my-artifact
-         path: |
-            dist
-            !dist/**/*.md
+         path: path/to/artifact/world.txt
+       
+    # The desired behavior if no files are found using the provided path.
+       
+
+    
+    
       
 
     
