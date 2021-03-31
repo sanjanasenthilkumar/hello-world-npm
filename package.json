@@ -1,5 +1,5 @@
 {
-  "name": "@sanjanasenthilkumar/hello-world-npm",
+  "name": "@sanjanasenthilkumar/hello-world",
   "version": "1.0.4",
   "description": "A simple npm package to demonstrate GitHub Package Registry",
   "main": "index.js",
