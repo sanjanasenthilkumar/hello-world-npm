@@ -1,6 +1,6 @@
 {
   "name": "@sanjanasenthilkumar/node-package",
-  "version": "1.0.1",
+  "version": "1.0.9",
   "description": "A simple npm package to demonstrate GitHub Package Registry",
   "main": "index.js",
   "scripts": {
