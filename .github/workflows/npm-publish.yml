@@ -48,6 +48,9 @@ jobs:
       - run: npm publish 
         env:
           NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - run: npm install -g pa11y
+      - run: pa11y http://google.com
+ 
 
   
 
